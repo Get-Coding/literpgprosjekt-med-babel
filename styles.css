@@ -1,0 +1,32 @@
+body {
+    font-family: sans-serif;
+  }
+  
+  .view {
+    border: 1px solid black;
+    height: 250px;
+    padding: 10px;
+    overflow-y: scroll;
+  }
+  
+  button {
+    height: 40px;
+    margin-top: 10px;
+    padding: 10px;
+    border: 2px solid black;
+  }
+  
+  button:hover {
+    background: gray;
+  }
+  
+  button:active {
+    background: darkgrey;
+  }
+  
+  .btn_group {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
